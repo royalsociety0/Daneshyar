@@ -1,7 +1,4 @@
-System.setProperty("http.proxyHost", "127.0.0.1")
-System.setProperty("http.proxyPort", "53305")
-System.setProperty("https.proxyHost", "127.0.0.1")
-System.setProperty("https.proxyPort", "53305")
+
 pluginManagement {
     val flutterSdkPath =
         run {
@@ -23,7 +20,7 @@ pluginManagement {
 
 plugins {
     id("dev.flutter.flutter-plugin-loader") version "1.0.0"
-    id("com.android.application") version "9.0.1" apply false
+    id("com.android.application") version "8.7.3" apply false
     id("org.jetbrains.kotlin.android") version "2.3.20" apply false
 }
 
